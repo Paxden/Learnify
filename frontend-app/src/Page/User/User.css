@@ -1,0 +1,32 @@
+
+
+a{
+    text-decoration: none;
+    color: #333;
+    transition: .3s ;
+}
+nav a:hover, .active{
+    color: green;
+    border-bottom: 2px solid green;
+    padding-bottom: 5px !important;
+}
+
+.nav-links{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.all-courses-card,.course-card{
+    transition: .3s ease;
+}
+
+.all-courses-card:hover,.course-card:hover{
+    box-shadow: 2px 2px 5px grey !important;
+}
+
+.my-learning-card:hover{
+    box-shadow: 1px 1px 3px 1px #333;
+}
